@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjCSharp1", "EjCSharp1.csproj", "{B150CBAA-8CEE-4137-808E-57A065B3C48E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjCSharp2", "..\EjCSharp2\EjCSharp2.csproj", "{2C5A9032-F7D4-45F5-9905-F65C1FEA3EF5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjCSharp2", "EjCSharp2.csproj", "{2C5A9032-F7D4-45F5-9905-F65C1FEA3EF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B150CBAA-8CEE-4137-808E-57A065B3C48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B150CBAA-8CEE-4137-808E-57A065B3C48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B150CBAA-8CEE-4137-808E-57A065B3C48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B150CBAA-8CEE-4137-808E-57A065B3C48E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2C5A9032-F7D4-45F5-9905-F65C1FEA3EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2C5A9032-F7D4-45F5-9905-F65C1FEA3EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C5A9032-F7D4-45F5-9905-F65C1FEA3EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3106DEE3-5B7D-4AA1-9CFA-98F997D3F4CC}
+		SolutionGuid = {925E9F58-C6E3-4AB9-86E6-A288D182C186}
 	EndGlobalSection
 EndGlobal
