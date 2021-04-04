@@ -4,13 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EjCSharp5
+namespace EjCSharp6
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // 5.Lea las teclas presionadas y finalice al presionar Ctrl+F(Ctrl y F al mismo tiempo).
+
+            //6.Lea las teclas presionadas y finalice al presionar Shift+Ctrl + F.
 
             ConsoleKeyInfo tecla;
             String salida = "";
@@ -23,17 +24,16 @@ namespace EjCSharp5
                 if ((tecla.Modifiers & ConsoleModifiers.Alt) != 0) salida = salida + ("ALT+");
                 if ((tecla.Modifiers & ConsoleModifiers.Shift) != 0) salida = salida + ("SHIFT+");
                 if ((tecla.Modifiers & ConsoleModifiers.Control) != 0) salida = salida + ("CTRL+");
-                
+
                 salida = salida + tecla.Key.ToString().ToUpper();
 
                 Console.WriteLine("Usted presionó la tecla " + salida);
             }
             while (salida != "CTRL+S");
-
+            
             Console.WriteLine("Presione cualquier tecla para finalizar");
 
             Console.ReadKey();
-
         }
     }
 }
